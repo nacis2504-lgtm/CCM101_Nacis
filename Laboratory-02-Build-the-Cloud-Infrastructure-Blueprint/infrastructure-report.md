@@ -1,26 +1,29 @@
 # Operating System
-cat /etc/os-release | grep -E "^(NAME|VERSION)="
+NAME="Ubuntu"
 
 # Kernel Version
-uname -r
+VERSION="24.04.4 LTS (Noble Numbat)"
 
 # CPU Model
-lscpu | grep "Model name" | cut -d':' -f2 | xargs
+6.8.0-136-generic
 
 # Number of CPU Cores
-nproc
+Intel Xeon E312xx (Sandy Bridge, IBRS update) RHEL-9.6.0 PC (Q35 + ICH9, 2009) CPU @ 2.0GHz
 
 # Total RAM
-free -h | grep Mem | awk '{print $2}'
+1
 
 # Disk Capacity
-df -h --total | grep total | awk '{print $2}'
+1.9Gi
 
 # Mounted File Systems
-df -hT | grep -v "^tmpfs" | grep -v "^devtmpfs"
+Filesystem     Type   Size  Used Avail Use% Mounted on
+/dev/vda1      ext4    19G  5.4G   13G  30% /
+/dev/vda16     ext4   881M  117M  703M  15% /boot
+/dev/vda15     vfat   105M  6.2M   99M   6% /boot/efi
 
 # Hostname
-hostname
+ubuntu
 
 # IP Address
-ip -4 addr show | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | grep -v "127.0.0.1" | head -1
+172.30.1.2
