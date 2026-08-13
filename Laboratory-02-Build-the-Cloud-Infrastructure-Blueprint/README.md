@@ -82,6 +82,13 @@ The Linux operating system consists of:
 - **Text Processing Tools**: `grep`, `awk`, `cut`, `sed`, `xargs`
 - **Documentation Tools**: `echo`, `cat > file.md`, `nano`, `vim`
 
+
+## Challenges Encountered 
+1. Provider Documentation Navigation: The challenge lies in the process of locating equivalent services that are available across different three cloud provider documentation systems, which vary in their structure and layout.
+2. Markdown Table Formatting: The challenge here is that the comparison table needs to be constructed accurately in markdown, requiring it to have multiple columns and lengthy service names.
+3. System Information Collection: The challenge lies in the task of collecting relevant system information using a single command in an easy-to-understand manner.
+4. Ephemeral Environment Constraints: Due to the temporary nature of the KillerCoda system, capturing documentation and investigation findings must be done quickly.
+
 ## List of Linux Commands
 
 ### Commands to Know the Status of Your System
@@ -108,3 +115,5 @@ df -h
 df -hT
 lsblk
 du -sh /* 2>/dev/null | sort -hr | head -10
+
+
