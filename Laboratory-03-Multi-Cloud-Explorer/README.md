@@ -20,7 +20,7 @@ Using KillerCoda Playground, I gathered the following system information:
 - **Command:** `df -h`
 - **Result:** 191 MB tmpfs storage
 
-### Screenshot
+### Output Screenshot
 ![Terminal Output](screenshots/killercoda-terminal.png)
 
 ## Cloud Migration
