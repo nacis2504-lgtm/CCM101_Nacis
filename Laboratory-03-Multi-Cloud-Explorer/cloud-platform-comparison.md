@@ -1,4 +1,4 @@
-# Checkpoint 3: Cloud Service Mapping
+# Checkpoint 5: Cloud Service Mapping
 
 Using your knowledge of AWS, Azure, and GCP, create a reference table that matches equivalent services
 
