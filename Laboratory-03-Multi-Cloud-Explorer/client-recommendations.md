@@ -6,6 +6,8 @@ CloudNova Technologies has received requests from four different clients with un
 
 ---
 
+# Checkpoint 4: Cloud Platform Recommendations
+
 ## Client A - Startup Company
 
 **Business Scenario:** A startup company wants to launch a new mobile application. Their budget is limited, but they expect rapid growth within the next few years.
@@ -86,14 +88,26 @@ AWS provides the mature, global infrastructure needed to serve customers worldwi
 
 ---
 
-## Decision Matrix Summary
+## Checkpoint 6: Multi-Cloud Decision Matrix
 
-| Business Requirement | Recommended Platform | Key Justification |
-|----------------------|---------------------|-------------------|
-| Startup Company | AWS | Free tier, pay-as-you-go, AWS Activate program |
-| University (Microsoft Environment) | Microsoft Azure | Native integration with Windows Server, Microsoft 365, Active Directory |
-| AI Research Company | Google Cloud Platform | Best-in-class Vertex AI, TPUs, BigQuery |
-| Global E-Commerce | AWS | Global infrastructure, Auto Scaling, CloudFront, DynamoDB |
+| Business Requirement | Recommended Platform | Justification |
+|----------------------|---------------------|---------------|
+| Startup Company | AWS | Extensive free tier, pay-as-you-go pricing, and broad service ecosystem enable cost-effective growth |
+| Enterprise Organization | AWS or Azure | AWS offers the broadest service catalog; Azure provides excellent Microsoft integration; choice depends on existing vendor relationships |
+| Microsoft Environment | Microsoft Azure | Native integration with Microsoft 365, Active Directory, Windows Server, and SQL Server; hybrid capabilities with Azure Arc |
+| AI / Machine Learning | Google Cloud Platform | Best-in-class Vertex AI, TPU access, and BigQuery; Google's research leadership and AI expertise |
+| Kubernetes Deployment | Google Cloud Platform | GKE is the original commercial Kubernetes service with the most mature feature set and engineering depth |
+| Global Web Application | AWS | Most extensive global infrastructure, mature autoscaling and load balancing tools, and comprehensive CDN (CloudFront) |
+---
+
+## Summary of Recommendations
+
+| Client | Recommended Platform | Key Reason |
+|--------|---------------------|------------|
+| Startup Company | AWS | Free tier, pay-as-you-go, scalability |
+| University (Microsoft Environment) | Microsoft Azure | Native Microsoft integration |
+| AI Research Company | Google Cloud Platform | Best-in-class AI/ML tools |
+| Global E-Commerce | AWS | Global infrastructure, reliability |
 
 ---
 
@@ -102,3 +116,6 @@ AWS provides the mature, global infrastructure needed to serve customers worldwi
 - [AWS Official Website](https://aws.amazon.com)
 - [Microsoft Azure Official Website](https://azure.microsoft.com)
 - [Google Cloud Platform Official Website](https://cloud.google.com)
+- [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)
+- [Azure Global Infrastructure](https://azure.microsoft.com/global-infrastructure/)
+- [GCP Global Infrastructure](https://cloud.google.com/infrastructure)
