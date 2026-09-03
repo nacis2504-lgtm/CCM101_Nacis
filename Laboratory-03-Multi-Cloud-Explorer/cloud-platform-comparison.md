@@ -1,4 +1,4 @@
-# Cloud Platform Comparison
+# Checkpoint 3: Cloud Platform Comparison
 
 ## Comparison Table
 
